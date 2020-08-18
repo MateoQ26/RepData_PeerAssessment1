@@ -4,6 +4,7 @@ subtitle: 'Peer Assessment 1'
 author: "Andres Mateo Quevedo"
 date: "17/8/2020"
 output: html_document
+keep_md: TRUE
 ---
 
 ## Assignment: Data Analysis

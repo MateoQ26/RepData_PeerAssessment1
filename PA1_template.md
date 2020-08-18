@@ -3,9 +3,8 @@ title: "Reproducible Research - Week 2"
 subtitle: 'Peer Assessment 1'
 author: "Andres Mateo Quevedo"
 date: "17/8/2020"
-output: 
-  html_document: 
-    keep_md: true
+output: html_document
+keep_md: TRUE
 ---
 
 ## Assignment: Data Analysis
@@ -171,7 +170,7 @@ plot_1 <- qplot(total_steps,
 print(plot_1)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
 
 
 ## What is the average daily activity pattern?
@@ -194,7 +193,7 @@ plot_2 <- ggplot(data = pattern_average, aes(x=interval, y=steps)) +
 print(plot_2)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
 
 - Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -301,7 +300,7 @@ plot_3 <- qplot(total_steps_newData,
 print(plot_3)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16-1.png)
 
 - Calculate and report the mean and median of the total number of steps taken per day in **newData**:
 
@@ -375,4 +374,4 @@ plot_4 <- ggplot(newData_weekend_weekday, aes(x = interval, y = steps, color = w
 print(plot_4)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![plot of chunk unnamed-chunk-21](figure/unnamed-chunk-21-1.png)
